@@ -1,0 +1,109 @@
+{
+  "key": "group_contact_page",
+  "title": "Contact Page",
+  "fields": [
+    {
+      "key": "field_contact_hero_title",
+      "label": "Hero Title",
+      "name": "hero_title",
+      "type": "text",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_contact_hero_description",
+      "label": "Hero Description",
+      "name": "hero_description",
+      "type": "textarea",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_contact_phone",
+      "label": "Phone",
+      "name": "contact_phone",
+      "type": "text",
+      "required": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_contact_email",
+      "label": "Email",
+      "name": "contact_email",
+      "type": "email",
+      "required": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_contact_address",
+      "label": "Address",
+      "name": "contact_address",
+      "type": "textarea",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_contact_map_embed",
+      "label": "Map Embed (iframe)",
+      "name": "contact_map_embed",
+      "type": "textarea",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "new_lines": "br"
+    },
+    {
+      "key": "field_contact_form_shortcode",
+      "label": "Form Shortcode",
+      "name": "contact_form_shortcode",
+      "type": "text",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "page-contact.php"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 0
+}

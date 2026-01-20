@@ -1,0 +1,173 @@
+{
+  "key": "group_home_page",
+  "title": "Home Page",
+  "fields": [
+    {
+      "key": "field_home_hero_title",
+      "label": "Hero Title",
+      "name": "hero_title",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_home_hero_description",
+      "label": "Hero Description",
+      "name": "hero_description",
+      "type": "textarea",
+      "instructions": "",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_home_hero_cta_label",
+      "label": "Hero CTA Label",
+      "name": "hero_cta_label",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_home_hero_cta_link",
+      "label": "Hero CTA Link",
+      "name": "hero_cta_link",
+      "type": "link",
+      "instructions": "",
+      "required": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array"
+    },
+    {
+      "key": "field_home_hero_image",
+      "label": "Hero Image",
+      "name": "hero_image",
+      "type": "image",
+      "instructions": "",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "preview_size": "medium",
+      "library": "all"
+    },
+    {
+      "key": "field_home_services_heading",
+      "label": "Services Heading",
+      "name": "services_heading",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_home_services_items",
+      "label": "Service Cards",
+      "name": "services_items",
+      "type": "repeater",
+      "instructions": "",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "min": 0,
+      "layout": "row",
+      "button_label": "Add Service",
+      "sub_fields": [
+        {
+          "key": "field_home_services_item_title",
+          "label": "Title",
+          "name": "title",
+          "type": "text",
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_home_services_item_icon",
+          "label": "Icon",
+          "name": "icon",
+          "type": "image",
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "preview_size": "thumbnail",
+          "library": "all"
+        },
+        {
+          "key": "field_home_services_item_desc",
+          "label": "Description",
+          "name": "description",
+          "type": "textarea",
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        }
+      ]
+    },
+    {
+      "key": "field_home_properties_heading",
+      "label": "Properties Heading",
+      "name": "properties_heading",
+      "type": "text",
+      "instructions": "",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "page-home.php"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 0
+}

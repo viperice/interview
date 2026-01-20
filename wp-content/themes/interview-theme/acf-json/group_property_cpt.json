@@ -1,0 +1,64 @@
+{
+  "key": "group_property_cpt",
+  "title": "Property Details",
+  "fields": [
+    {
+      "key": "field_property_location",
+      "label": "Location",
+      "name": "location",
+      "type": "text",
+      "required": 0
+    },
+    {
+      "key": "field_property_price",
+      "label": "Price",
+      "name": "price",
+      "type": "text",
+      "required": 0
+    },
+    {
+      "key": "field_property_badge",
+      "label": "Badge",
+      "name": "badge",
+      "type": "text",
+      "required": 0
+    },
+    {
+      "key": "field_property_tags",
+      "label": "Tags",
+      "name": "property_tags",
+      "type": "repeater",
+      "required": 0,
+      "min": 0,
+      "layout": "row",
+      "button_label": "Add Tag",
+      "sub_fields": [
+        {
+          "key": "field_property_tag_label",
+          "label": "Tag",
+          "name": "tag",
+          "type": "text",
+          "required": 0
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "property"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 0
+}

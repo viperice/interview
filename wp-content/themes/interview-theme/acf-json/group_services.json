@@ -1,0 +1,96 @@
+{
+  "key": "group_services_page",
+  "title": "Services Page",
+  "fields": [
+    {
+      "key": "field_services_hero_title",
+      "label": "Hero Title",
+      "name": "hero_title",
+      "type": "text",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_services_hero_description",
+      "label": "Hero Description",
+      "name": "hero_description",
+      "type": "textarea",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_services_cards",
+      "label": "Service Cards",
+      "name": "service_cards",
+      "type": "repeater",
+      "required": 0,
+      "min": 0,
+      "layout": "row",
+      "button_label": "Add Service",
+      "sub_fields": [
+        {
+          "key": "field_services_card_title",
+          "label": "Title",
+          "name": "title",
+          "type": "text",
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_services_card_icon",
+          "label": "Icon",
+          "name": "icon",
+          "type": "image",
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "preview_size": "thumbnail",
+          "library": "all"
+        },
+        {
+          "key": "field_services_card_description",
+          "label": "Description",
+          "name": "description",
+          "type": "textarea",
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "page-services.php"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 0
+}

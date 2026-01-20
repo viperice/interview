@@ -1,0 +1,118 @@
+{
+  "key": "group_properties_page",
+  "title": "Properties Page",
+  "fields": [
+    {
+      "key": "field_properties_hero_title",
+      "label": "Hero Title",
+      "name": "hero_title",
+      "type": "text",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_properties_hero_description",
+      "label": "Hero Description",
+      "name": "hero_description",
+      "type": "textarea",
+      "required": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      }
+    },
+    {
+      "key": "field_properties_cards",
+      "label": "Property Cards",
+      "name": "property_cards",
+      "type": "repeater",
+      "required": 0,
+      "min": 0,
+      "layout": "row",
+      "button_label": "Add Property",
+      "sub_fields": [
+        {
+          "key": "field_properties_card_title",
+          "label": "Title",
+          "name": "title",
+          "type": "text",
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_properties_card_price",
+          "label": "Price",
+          "name": "price",
+          "type": "text",
+          "wrapper": {
+            "width": "50",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_properties_card_location",
+          "label": "Location",
+          "name": "location",
+          "type": "text",
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_properties_card_badge",
+          "label": "Badge",
+          "name": "badge",
+          "type": "text",
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          }
+        },
+        {
+          "key": "field_properties_card_image",
+          "label": "Image",
+          "name": "image",
+          "type": "image",
+          "wrapper": {
+            "width": "",
+            "class": "",
+            "id": ""
+          },
+          "return_format": "array",
+          "preview_size": "medium",
+          "library": "all"
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_template",
+        "operator": "==",
+        "value": "page-properties.php"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 0
+}
